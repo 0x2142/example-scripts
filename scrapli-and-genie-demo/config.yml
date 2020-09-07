@@ -1,0 +1,6 @@
+Devices:
+  hostname:
+    type: ios-xe
+    address: 192.168.1.1
+    username: net_api
+    password: cisco1234
