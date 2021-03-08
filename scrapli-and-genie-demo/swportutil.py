@@ -1,7 +1,7 @@
 import csv
 
 import yaml
-from scrapli.driver.core import IOSXEDriver
+    from scrapli.driver.core import IOSXEDriver
 
 
 def loadDevices():
