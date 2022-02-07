@@ -23,7 +23,7 @@ class WeatherByZIP(Command):
             card=None,
         )
 
-    def execute(self, message, attachment_actions):
+    def execute(self, message, attachment_actions, activity):
         # By default, command keyword will be stripped out before being passed to execute function
         # For example, If user sends "weather 12345", then message variable will be " 12345"
         # Need to strip the additional whitespace around the input:
