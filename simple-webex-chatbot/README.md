@@ -15,5 +15,5 @@ A Webex API key can be created by signing up for a free developer account at dev
 
 ## Additional Details
 
-[Blog Post](https://0x2142.com/how-to-building-a-basic-webex-chatbot/)
-[YouTube Video](https://www.youtube.com/watch?v=yZQjoe5XUYE)
+- [Blog Post](https://0x2142.com/how-to-building-a-basic-webex-chatbot/)
+- [YouTube Video](https://www.youtube.com/watch?v=yZQjoe5XUYE)
