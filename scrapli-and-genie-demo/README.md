@@ -18,3 +18,8 @@ The purpose of this script is to:
 Only two dependencies are required, as specified in requirements.txt:
 1. scrapli
 2. scrapli[genie]
+
+## Additional Details
+
+[Blog Post](https://0x2142.com/automating-the-cli-using-scrapli/)
+[Youtube Video](https://www.youtube.com/watch?v=79WitHmGW9I)
