@@ -1,0 +1,38 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Get Current Weather",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Enter a Zip code:",
+            "wrap": true
+        },
+        {
+            "type": "Input.Number",
+            "placeholder": "00000",
+            "id": "zip_code",
+            "min": 1,
+            "max": 99950
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Get Weather",
+                    "data": {
+                        "callback_keyword": "weather"
+                    }
+                }
+            ]
+        }
+    ]
+}
